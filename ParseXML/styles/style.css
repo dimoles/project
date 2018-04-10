@@ -1,0 +1,88 @@
+body, html {
+	height: 100%;
+	background-image:url("https://www.hd-wallpapersdownload.com/script/new-wallpaper/Stock-Amazing-Book-Wallpaper-download.jpg")
+
+}
+
+
+
+@media only screen and (max-width: 550px) {
+    /* For mobile phones: */
+    [class*="row"] {
+        width: 100%;
+    }
+	}
+	
+	
+    * {
+		box-sizing: border-box;
+	}
+
+	@media only screen and (max-width: 550px) {
+	.col-3{
+		margin-left:20px;
+	}
+}
+
+
+.responsive {
+    width: 100%;
+    height: 400px;
+}
+
+
+
+#displaybook{
+	padding: 5px 25px;
+	width: 90%;
+	margin: auto;
+}
+
+.navbar {
+	font-family: 'Franklin Gothic Medium';
+	font-size: 20px;
+	
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+	display: table;
+	color: #030000;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+	border: 1px solid rgba(15, 3, 3, 0.171);
+    margin-bottom: 7px;
+    background-color: #4c4f5067;
+    color: #030000;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.col-9{
+	margin-left:30px;
+	width: 20%;
+	color:black;
+	
+}
+
+.col-3{
+	margin-left:140px;
+	color: black;
+	
+}
+
+.row{
+	/* margin-left:-150px; */
+	font-family: 'Franklin Gothic Medium';
+	color: black;
+}
+
+input{
+	margin-bottom: 3px;
+}
+
+
+
